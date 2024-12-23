@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCPD Crime Report</title>
+    <meta name="author" content="Reda Errachidi">
+    <meta name="author" content="Juan JosÃ©">
+    <meta name="Description" content="This website is about a reporting system for RCPD (mdc).">
+    <meta name="keywords" content="RCPD , Police">
+    <link rel="icon" type="image/png" href="images/red-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>RCPD Crime Reporting System</h1>
+        <p>Submit and view crime reports effectively.</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    <main>
+        <section class="form-section">
+            <h2>Submit a Crime Report</h2>
+            <form id="crime-report-form">
+                <label for="reporter-name">Your Name(s):</label>
+                <input type="text" id="reporter-name" name="reporterName" required>
+                
+                <label for="ranks">Your Rank(s):</label>
+                <input type="text" id="ranks" name="ranks" required>
+                
+                <label for="name-of-victim">Name of Victim(s):</label>
+                <input type="text" id="name-of-victim" name="name-of-victim">
+                
+                <label for="Num-Phone">Number Phone:</label>
+                <input type="text" id="Num-Phone" name="Num-Phone">
+                
+                <label for="Victim Description">Victim(s) Description:</label>
+                <textarea id="Victim Description" name="Victim Description" rows="4"></textarea>
+                
+                <label for="suspect-name">Suspect(s) Name:</label>
+                <input type="text" id="suspect-name" name="suspect-name" required>
+                
+                <label for="crime">Crime(s):</label>
+                <input type="text" id="crime" name="crime" required>
+                
+                <label for="crime-description">Crime Description:</label>
+                <textarea id="crime-description" name="crimeDescription" rows="5" required></textarea>
+                
+                <label for="Punishement">Punishment(s):</label>
+                <input type="text" id="Punishement" name="Punishement" required>
+                
+                <label for="crime-time">Date & Time:</label>
+                <input type="datetime-local" id="crime-time" name="crimeTime" required>
+
+                <button type="submit">Submit Report</button>
+            </form>
+        </section>
+
+        <section class="report-section">
+            <h2>Crime Reports</h2>
+            <div id="reports-container">
+                <p> <b></b></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 RCPD. All rights reserved.
+            <br>&copy; Developed by 1_bp.
+        </p>
+    </footer>
+</body>
+
+</html>

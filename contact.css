@@ -1,0 +1,89 @@
+h1   {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #dd1515;
+    background-image: url(images/background.jpg);
+}
+p {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+    background-image: url(images/background.jpg);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #dd1515;
+    text-align: center;
+    background-image: url(images/background.jpg);
+}
+/* General styles for the contact section */
+.contact-section {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the contact header */
+.contact-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles for the contact details */
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details li i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+/* Styles for the contact form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #222222;
+}
